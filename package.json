@@ -1,0 +1,14 @@
+{
+  "name": "@ipdigital/config-loader",
+  "version": "1.0.2",
+  "description": "Loads your default configuration and environment specific configuration into global.config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Future Software",
+  "license": "ISC",
+  "dependencies": {
+    "merge-options": "^2.0.0"
+  }
+}
