@@ -1,6 +1,6 @@
 {
   "name": "@ipdigital/config-loader",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Loads your default configuration and environment specific configuration into global.config",
   "main": "index.js",
   "scripts": {
