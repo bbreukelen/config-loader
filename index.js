@@ -22,6 +22,7 @@ function loadFromFile(file) {
 }
 
 function loadFile(path) {
+  if (path.substring(0,1) !== "/") path = process.cwd() + "/" + path;
   if (fs.existsSync(path)) {
     console.log(TAG + "Loading config file " + path);
     try {
